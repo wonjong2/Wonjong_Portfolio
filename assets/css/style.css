@@ -88,19 +88,19 @@ aside {
     line-height: 1.3;
     margin-top: 1.25rem;
     margin-right: 5rem;
-    /* display: flex; */
-    /* align-items: center; */
+    display: flex;
+    align-items: center;
 }
 
 .myphoto {
-    display: inline;
+    display: block;
     width: 130px;
-    float: left;
+    /* float: left; */
     margin-right: 0.7rem;
 }
 
 .aboutme-detail p {
-    display: inline;
+    /* display: inline; */
     vertical-align: middle;
 }
 
@@ -259,6 +259,21 @@ footer > h4 {
 
     h4 {
         font-size: 1.1rem;
+    }
+
+    .aboutme-detail{
+        display: block;
+    }
+    
+    .myphoto {
+        display: inline;
+        width: 130px;
+        float: left;
+        margin-right: 0.7rem;
+    }
+    
+    .aboutme-detail p {
+        display: inline;
     }
 }
 
