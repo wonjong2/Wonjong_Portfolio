@@ -34,10 +34,10 @@ Please see the screenshots of the layout change on this Website.
     <!-- <img src="./assets/images/912px.png" alt="Surface Pro 7 Layout" width=400> -->
     ![Surface Pro 7 Layout](assets/images/912px.png)
 
-- Layout 3 (820px >= Width > 768px)
+- Layout 3 (820px >= Width > 783px)
     ![iPad Air Layout](assets/images/820px.png) 
 
-- Layout 4 (768px >= Width > 540px)
+- Layout 4 (783px >= Width > 540px)
     ![iPad mini Layout](assets/images/768px.png)    
 
 - Layout 5 (540px >= Width)
