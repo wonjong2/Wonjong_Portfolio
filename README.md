@@ -8,8 +8,9 @@ It will be developed and improved over and over.
 
 - Applied @Media Query for Responsive Web Design
 - Applied Flexbox to organize this web page
-- Used Pseudo class to check 'hover' state and change style properly
-- Used CSS variables to handle border/background color efficiently
+- Applied Pseudo class to check 'hover' state and change style properly
+- Applied CSS variables to handle border/background color efficiently
+- Applied 'transition' property to make the effect when the user's mouse moves over the links.
 
 ## Web Site's URL
 
@@ -21,15 +22,15 @@ https://wonjong2.github.io/Wonjong_Portfolio/
 
 ## Usage
 
-- when user clicks one of the links in the navigation, then the UI scrolls to the corresponding section.
-- When user clicks one of the images in the Work section, then user is taken to that deployed application. 
+- when the user clicks one of the links in the navigation, then the UI scrolls to the corresponding section.
+- When the user clicks one of the images in the Work section, then user is taken to that deployed application. 
 
 Please see the screenshots of the layout change on this Website.
 
-- Layout 1 (Width > 1024px)
+- Layout 1 (Width > 1063px)
     ![Desktop layout](assets/images/desktop.png)
 
-- Layout 2 (1024px >= Width > 820px)
+- Layout 2 (1063px >= Width > 820px)
     <!-- <img src="./assets/images/912px.png" alt="Surface Pro 7 Layout" width=400> -->
     ![Surface Pro 7 Layout](assets/images/912px.png)
 

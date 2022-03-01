@@ -49,6 +49,13 @@ nav > ul > li {
 
 nav > ul > li > a {
     color: black;
+    transition: trsnsform, text-shadow 0.3s;
+}
+
+nav > ul > li > a:hover {
+    display: inline-block;
+    transform: translate(-1px, -1px);
+    text-shadow: 1px 1px 2px black;
 }
 
 /* Style for Subtitle area */
@@ -102,12 +109,10 @@ aside {
 .myphoto {
     display: block;
     width: 130px;
-    /* float: left; */
     margin-right: 0.7rem;
 }
 
 .aboutme-detail p {
-    /* display: inline; */
     vertical-align: middle;
 }
 
@@ -117,9 +122,7 @@ aside {
 }
 
 .work-detail {
-    /* flex: 4 1 80%; */
     flex: 4;
-    /* font-size: 20px; */
     margin-top: 1.25rem;
     margin-right: 5rem;
     display: flex;
@@ -150,13 +153,14 @@ aside {
     text-decoration: none;
     color: black;
     margin-top: 0.62rem;
+    transition: transform, opacity 0.5s;
 }
 
 .works:hover {
     border-color: var(--dark-border);
     opacity: 1.0;
     box-shadow: 10px 5px 10px rgb(75, 74, 74);
-    transform: rotate(3deg);
+    transform: translate(-5px, -5px);
     z-index: 999;
 }
 
@@ -196,7 +200,6 @@ aside {
 }
 
 .contactme-detail {
-    /* flex: 4 1 80%; */
     flex: 4;
     font-size: 1.25rem;
     margin-top: 1.25rem;
@@ -205,11 +208,21 @@ aside {
     justify-content: space-evenly;
     align-items: center;
     color: black;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .contactme-detail li > a {
     color: black;
+}
+
+.contactme-detail li > a[href] {
+    transition: tranform, text-shadow 0.3s;
+}
+
+.contactme-detail li > a[href]:hover {
+    display: inline-block;
+    transform: translate(-1px, -1px);
+    text-shadow: 1px 1px 2px black;
 }
 
 /* Style for footer */
@@ -227,7 +240,7 @@ footer > h4 {
 }
 
 /* For Responsive design  */
-@media only screen and (max-width:1300px){
+@media only screen and (max-width:1367px){
     h1 {
         font-size: 3.5rem;
     }
@@ -245,7 +258,8 @@ footer > h4 {
     }
 }
 
-@media only screen and (max-width:1024px){
+/* Screen for Tablets */
+@media only screen and (max-width:1063px){
     h1 {
         font-size: 2.8rem;
     }
@@ -350,7 +364,6 @@ footer > h4 {
     }
 
     ul.contactme-detail > li {
-        /* display: block; */
         padding: 1% 0;
     }
 }
@@ -393,12 +406,12 @@ footer > h4 {
     }
     
     .contactme-detail {
-        /* flex: 4 1 80%; */
         flex: 100%;
         margin: 1rem 1.5rem;
     }
 }
 
+/* Screen for Mobile Phone */
 @media only screen and (max-width:414px){
     .subtitle {
         height: 15rem;
