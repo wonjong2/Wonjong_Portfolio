@@ -21,44 +21,28 @@ https://wonjong2.github.io/Wonjong_Portfolio/
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+- when user clicks one of the links in the navigation, then the UI scrolls to the corresponding section.
+- When user clicks one of the images in the Work section, then user is taken to that deployed application. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Please see the screenshots of the layout change on this Website.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+- Layout 1 (Width > 1024px)
+    ![Desktop layout](assets/images/desktop.png)
 
-## Credits
+- Layout 2 (1024px >= Width > 820px)
+    <!-- <img src="./assets/images/912px.png" alt="Surface Pro 7 Layout" width=400> -->
+    ![Surface Pro 7 Layout](assets/images/912px.png)
 
-List your collaborators, if any, with links to their GitHub profiles.
+- Layout 3 (820px >= Width > 768px)
+    ![iPad Air Layout](assets/images/820px.png) 
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+- Layout 4 (768px >= Width > 540px)
+    ![iPad mini Layout](assets/images/768px.png)    
 
-If you followed tutorials, include links to those here as well.
+- Layout 5 (540px >= Width)
+    ![iPhone 12 Pro](assets/images/414px.png)    
 
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
