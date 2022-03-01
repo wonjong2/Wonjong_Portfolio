@@ -9,11 +9,15 @@ It will be developed and improved over and over.
 - Applied @Media Query for Responsive Web Design
 - Applied Flexbox to organize this web page
 - Used Pseudo class to check 'hover' state and change style properly
+- Used CSS variables to handle border/background color efficiently
 
-## Installation
+## Web Site's URL
 
-Just go to this url : 
+- Wonjong's Portfolio : 
 https://wonjong2.github.io/Wonjong_Portfolio/
+
+## Git Hub URL for this Web Site
+- wonjong2/Wonjong_Portfolio : https://github.com/wonjong2/Wonjong_Portfolio
 
 ## Usage
 
