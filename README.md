@@ -27,20 +27,20 @@ https://wonjong2.github.io/Wonjong_Portfolio/
 
 Please see the screenshots of the layout change on this Website.
 
-- Layout 1 (Width > 1063px)
+- Layout 1 (Width > 1063px) <br>
     ![Desktop layout](assets/images/desktop.png)
 
-- Layout 2 (1063px >= Width > 820px)
+- Layout 2 (1063px >= Width > 820px) <br>
     <!-- <img src="./assets/images/912px.png" alt="Surface Pro 7 Layout" width=400> -->
     ![Surface Pro 7 Layout](assets/images/912px.png)
 
-- Layout 3 (820px >= Width > 783px)
+- Layout 3 (820px >= Width > 783px) <br>
     ![iPad Air Layout](assets/images/820px.png) 
 
-- Layout 4 (783px >= Width > 540px)
+- Layout 4 (783px >= Width > 540px) <br>
     ![iPad mini Layout](assets/images/768px.png)    
 
-- Layout 5 (540px >= Width)
+- Layout 5 (540px >= Width) <br>
     ![iPhone 12 Pro](assets/images/414px.png)    
 
 ## License
