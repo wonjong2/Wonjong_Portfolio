@@ -24,6 +24,7 @@ https://wonjong2.github.io/Wonjong_Portfolio/
 
 - When the user clicks one of the links in the navigation, then the UI scrolls to the corresponding section.
 - When the user clicks one of the images in the Work section, then user is taken to that deployed application. 
+- __Simple Demo__ : https://watch.screencastify.com/v/fqzew2o5S0aFCIJ80UGO
 
 Please see the screenshots of the layout change on this Website.
 
@@ -31,7 +32,6 @@ Please see the screenshots of the layout change on this Website.
     ![Desktop layout](assets/images/desktop.png)
 
 - Layout 2 (1063px >= Width > 820px) <br>
-    <!-- <img src="./assets/images/912px.png" alt="Surface Pro 7 Layout" width=400> -->
     ![Surface Pro 7 Layout](assets/images/912px.png)
 
 - Layout 3 (820px >= Width > 783px) <br>
