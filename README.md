@@ -22,7 +22,7 @@ https://wonjong2.github.io/Wonjong_Portfolio/
 
 ## Usage
 
-- when the user clicks one of the links in the navigation, then the UI scrolls to the corresponding section.
+- When the user clicks one of the links in the navigation, then the UI scrolls to the corresponding section.
 - When the user clicks one of the images in the Work section, then user is taken to that deployed application. 
 
 Please see the screenshots of the layout change on this Website.
@@ -45,5 +45,5 @@ Please see the screenshots of the layout change on this Website.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+
 
