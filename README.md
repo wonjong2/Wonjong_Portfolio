@@ -24,26 +24,25 @@ https://wonjong2.github.io/Wonjong_Portfolio/
 
 - When the user clicks one of the links in the navigation, then the UI scrolls to the corresponding section.
 - When the user clicks one of the images in the Work section, then user is taken to that deployed application. 
-- __Simple Demo__ : https://watch.screencastify.com/v/fqzew2o5S0aFCIJ80UGO
+- __Simple Demo__ : https://watch.screencastify.com/v/qpZMIS3KgBERIE50quGm
 
 Please see the screenshots of the layout change on this Website.
 
-- Layout 1 (Width > 1063px) <br>
+- Layout 1 (Width > 1024px) <br>
     ![Desktop layout](assets/images/desktop.png)
 
-- Layout 2 (1063px >= Width > 820px) <br>
+- Layout 2 (1024px >= Width > 820px) <br>
     ![Surface Pro 7 Layout](assets/images/912px.png)
 
-- Layout 3 (820px >= Width > 783px) <br>
+- Layout 3 (820px >= Width > 768px) <br>
     ![iPad Air Layout](assets/images/820px.png) 
 
-- Layout 4 (783px >= Width > 540px) <br>
+- Layout 4 (768px >= Width > 540px) <br>
     ![iPad mini Layout](assets/images/768px.png)    
 
 - Layout 5 (540px >= Width) <br>
     ![iPhone 12 Pro](assets/images/414px.png)    
 
-## License
 
 
 
