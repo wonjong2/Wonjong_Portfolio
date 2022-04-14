@@ -24,8 +24,9 @@ body {
 
 /* font-size for headings */
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     display: inline-block;
+    color: black;
 }
 
 h2 {
@@ -48,6 +49,10 @@ h4 {
     background-color: rgb(241, 193, 70);
 } */
 
+#top-menu {
+    text-align: right;
+}
+
 .container-fluid > h1 {
     margin: 1% 0;
     padding: 1% 2% 1% 7%;
@@ -58,25 +63,40 @@ h4 {
 .custom-navbar {
     padding-right: 3rem;
     font-size: 1.6rem;
-    background-color: var(--dark-color)
+    background-color: var(--dark-color);
 }
 
-.custom-navbar > ul > li {
+/* .custom-navbar > ul > li {
     display: inline-block;
     padding-left: 1.3rem;
+} */
+.navbar-dark {
+    color: white;
 }
 
-.custom-navbar > ul > li > a {
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.nav-link {
+    /* color: white; */
+    transition: transform, text-shadow 0.3s;
+}
+/* .navbar-nav > li > a {
     color: black;
-    transition: trsnsform, text-shadow 0.3s;
-}
+    transition: transform, text-shadow 0.3s;
+} */
 
-.custom-navbar > ul > li > a:hover {
-    display: inline-block;
+.nav-link:hover {
+    /* display: inline-block; */
+    color: white;
     transform: translate(-1px, -1px);
-    text-shadow: 1px 1px 2px black;
+    /* text-shadow: 1px 1px 2px black; */
 }
 
+.navbar-dark .navbar-toggler {
+    color: white;
+    border-color: white;
+}
 /* Style for Subtitle area */
 .subtitle {
     display: flex;
@@ -308,13 +328,13 @@ footer > h4 {
         font-size: 2.5rem;
     }
     
-    .custom-navbar {
+    /* .custom-navbar {
         font-size: 1.2rem;
-    }
+    } */
 
-    n.custom-navbarav > ul > li {
+    /* .custom-navbarav > ul > li {
         padding-left: 0.5rem;
-    }
+    } */
 
     h3 {
         font-size: 2rem;
@@ -346,7 +366,8 @@ footer > h4 {
     }
     
     .custom-navbar {
-        padding: 2% 0;
+        /* padding: 2% 0; */
+        padding-right: 3rem;
     }
 
     h3 {
@@ -440,9 +461,9 @@ footer > h4 {
         font-size: 0.8rem;
     }
 
-    .custom-navbar > ul > li {
+    /* .custom-navbar > ul > li {
         padding-left: 0.3rem;
-    }
+    } */
 
     h3 {
         font-size: 1.5rem;
