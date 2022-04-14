@@ -54,8 +54,8 @@ h4 {
 }
 
 .container-fluid > h1 {
-    margin: 1% 0;
-    padding: 1% 2% 1% 7%;
+    margin: 1rem 0;
+    padding: 5px 20px 5px 7%;
     border: 5px var(--light-color) solid;
     background-color: var(--light-color);
 }
@@ -178,6 +178,7 @@ aside {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    /* opacity: 0.97; */
 }
 
 .works {
@@ -278,9 +279,9 @@ footer > h4 {
 /* For Responsive design  */
 /* Screen for Tablets */
 @media only screen and (max-width:1024px){
-    h1 {
+    /* h1 {
         font-size: 3.5rem;
-    }
+    } */
     
     .custom-navbar {
         font-size: 1.3rem;
