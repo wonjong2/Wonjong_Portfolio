@@ -342,11 +342,11 @@ footer > h4 {
 
 @media only screen and (max-width:912px){
     h1 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     
     /* .custom-navbar {
@@ -378,13 +378,13 @@ footer > h4 {
 
 @media only screen and (max-width:768px){
     /* Change flex-direction of header */
-    header {
+    /* header {
         flex-direction: column;
-    }
+    } */
 
-    header > h1 {
+    /* header > h1 {
         align-self: flex-start;
-    }
+    } */
     
     .custom-navbar {
         /* padding: 2% 0; */
@@ -410,6 +410,11 @@ footer > h4 {
 }
 
 @media only screen and (max-width:540px){
+    .custom-navbar {
+        /* padding: 2% 0; */
+        padding-right: 1rem;
+    }
+
     .aboutme-container {
         display: flex;
         flex-direction: column;
@@ -472,11 +477,11 @@ footer > h4 {
 
 @media only screen and (max-width:360px){
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     h2 {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
     
     .custom-navbar {
@@ -488,7 +493,7 @@ footer > h4 {
     } */
 
     h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .contactme-detail {
