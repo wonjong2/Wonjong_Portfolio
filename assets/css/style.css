@@ -118,28 +118,36 @@ h4 {
 }
 
 /* Style for Aside */
-aside {
-    flex: 1;
+.custom-aside {
+    /* flex: 1; */
     border-right: 5px var(--dark-color) solid;
     text-align: end;
-    margin-top: 1.25rem;
-    margin-right: 1.87rem;
-    padding-right: 1.25rem;
-    display: flex;
-    flex-direction: column;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    /*padding-right: 1.25rem; */
+    /* display: flex;
+    flex-direction: column; */
 }
 
+/* .custom-detail {
+    margin-top: 1rem;
+} */
+
 /* Style for About Me */
-.aboutme-container {
+/* .aboutme-container {
     display: flex;
+} */
+
+#aboutme-text {
+    margin-bottom: 0;
 }
 
 .aboutme-detail{
-    flex: 4;
-    font-size: 1.25rem;
-    line-height: 1.3;
-    margin-top: 1.25rem;
-    margin-right: 5rem;
+    /* flex: 4; */
+    /* font-size: 1.25rem;
+    line-height: 1.3; */
+    margin-top: 1rem;
+    /* margin-right: 5rem;*/
     display: flex;
     align-items: center;
 }
@@ -160,9 +168,9 @@ aside {
 }
 
 .work-detail {
-    flex: 4;
-    margin-top: 1.25rem;
-    margin-right: 5rem;
+    /* flex: 4; */
+    margin-top: 1rem;
+    /* margin-right: 5rem; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -252,15 +260,15 @@ aside {
 } */
 
 /* Style for Contact Me */
-.contactme-container {
+/* .contactme-container {
     display: flex;
-}
+} */
 
 .contactme-detail {
-    flex: 4;
+    /* flex: 4; */
     font-size: 1.2rem;
-    margin-top: 1.2rem;
-    margin-right: 5rem;
+    margin-top: 1rem;
+    /* margin-right: 5rem; */
     padding-left: 0;
     display: flex;
     justify-content: space-evenly;
@@ -298,12 +306,57 @@ footer > h4 {
 
 /* For Responsive design  */
 /* Screen for Tablets */
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:1000px) {
+    .works{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:800px) {
+    .myphoto {
+        display: inline;
+        width: 130px;
+        float: left;
+        margin-right: 0.7rem;
+    }
+
+    .aboutme-detail{
+        display: block;
+    }
+    
+    .aboutme-detail p {
+        display: inline;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+    .custom-aside {
+        border-bottom: 3px var(--dark-color) solid;
+        border-right: none;
+        text-align: start;
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+
+    .aboutme-detail,.work-detail {
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+
+    .contactme-detail {
+        margin-left: 4rem;
+        margin-right: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* @media only screen and (max-width:1024px){ */
     /* h1 {
         font-size: 3.5rem;
     } */
     
-    .custom-navbar {
+    /* .custom-navbar {
         font-size: 1.3rem;
     }
 
@@ -347,7 +400,7 @@ footer > h4 {
 
     h2 {
         font-size: 2rem;
-    }
+    } */
     
     /* .custom-navbar {
         font-size: 1.2rem;
@@ -357,7 +410,7 @@ footer > h4 {
         padding-left: 0.5rem;
     } */
 
-    h3 {
+    /* h3 {
         font-size: 2rem;
     }
 
@@ -376,7 +429,7 @@ footer > h4 {
     }
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px){ */
     /* Change flex-direction of header */
     /* header {
         flex-direction: column;
@@ -386,9 +439,9 @@ footer > h4 {
         align-self: flex-start;
     } */
     
-    .custom-navbar {
+    /* .custom-navbar { */
         /* padding: 2% 0; */
-        padding-right: 3rem;
+        /* padding-right: 3rem;
     }
 
     h3 {
@@ -409,10 +462,10 @@ footer > h4 {
     }
 }
 
-@media only screen and (max-width:540px){
-    .custom-navbar {
+@media only screen and (max-width:576px){
+    .custom-navbar { */
         /* padding: 2% 0; */
-        padding-right: 1rem;
+        /* padding-right: 1rem;
     }
 
     .aboutme-container {
@@ -452,14 +505,14 @@ footer > h4 {
     }
     
     .contactme-detail {
-        flex: 100%;
+        flex: 100%; */
         /* margin: 1rem 1.5rem; */
-        margin-left: 2.5rem;
+        /* margin-left: 2.5rem;
     }
 }
-
+ */
 /* Screen for Mobile Phone */
-@media only screen and (max-width:414px){
+/* @media only screen and (max-width:414px){
     .subtitle {
         height: 15rem;
         justify-content: flex-end;
@@ -487,12 +540,12 @@ footer > h4 {
     .custom-navbar {
         font-size: 0.8rem;
     }
-
+ */
     /* .custom-navbar > ul > li {
         padding-left: 0.3rem;
     } */
 
-    h3 {
+    /* h3 {
         font-size: 1.3rem;
     }
 
@@ -521,4 +574,4 @@ footer > h4 {
     .work-title p {
         font-size: 0.9rem;
     }
-}
+} */
