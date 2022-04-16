@@ -23,7 +23,7 @@ function handleClickEventOnWork(event) {
     }
     // Else link to the deployed web page
     else {
-        url = eventEl.parentNode.parentNode.href;
+        url = eventEl.href;
     }
 
     // Open the url in a new tab
