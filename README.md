@@ -37,7 +37,7 @@ https://wonjong2.github.io/Wonjong_Portfolio/
 
 Please see the screenshots of the layout change on this Website.
 
-- Layout 1 (Width > 992px) <br>
+- Layout 1 (Width > 1000px) <br>
     ![Desktop layout](assets/images/desktop.png)
 
 - Layout 2 (Width < 768px) <br>
