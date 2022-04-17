@@ -6,11 +6,19 @@ This Web-page Provides information about me, Wonjong, such as my introduction, w
 
 It will be developed and improved over and over.
 
-- Applied @Media Query for Responsive Web Design
-- Applied Flexbox to organize this web page
-- Applied Pseudo class to check 'hover' state and change style properly
-- Applied CSS variables to handle border/background color efficiently
-- Applied 'transition' property to make the effect when the user's mouse moves over the links.
+< 1st implementation, 3/1 >
+- Use @Media Query for Responsive Web Design
+- Use Flexbox to organize this web page
+- Use Pseudo class to check 'hover' state and change style properly
+- Use CSS variables to handle border/background color efficiently
+- Use 'transition' property to make the effect when the user's mouse moves over the links.
+
+< 2nd implementation, 4/16 >
+- Use Bootstrap for UI configuration
+- Use JavaScript to handle 'Click' event on the Work section
+- Add the GitHub link to each works
+- Use Font Awesome for the GitHub icon
+- Update the Resume with the latest information
 
 ## Web Site's URL
 
@@ -22,26 +30,18 @@ https://wonjong2.github.io/Wonjong_Portfolio/
 
 ## Usage
 
-- When the user clicks one of the links in the navigation, then the UI scrolls to the corresponding section.
-- When the user clicks one of the images in the Work section, then user is taken to that deployed application. 
+- When a user clicks one of the links in the navigation, then the UI scrolls to the corresponding section.
+- When a user clicks one of the images in the Work section, then a user is taken to that deployed application. 
+- When a user clicks area of "[Go To GitHub]", then a user is taken to the repository of it.
 - __Simple Demo__ : https://watch.screencastify.com/v/qpZMIS3KgBERIE50quGm
 
 Please see the screenshots of the layout change on this Website.
 
-- Layout 1 (Width > 1024px) <br>
+- Layout 1 (Width > 992px) <br>
     ![Desktop layout](assets/images/desktop.png)
 
-- Layout 2 (1024px >= Width > 820px) <br>
-    ![Surface Pro 7 Layout](assets/images/912px.png)
-
-- Layout 3 (820px >= Width > 768px) <br>
+- Layout 2 (Width < 768px) <br>
     ![iPad Air Layout](assets/images/820px.png) 
-
-- Layout 4 (768px >= Width > 540px) <br>
-    ![iPad mini Layout](assets/images/768px.png)    
-
-- Layout 5 (540px >= Width) <br>
-    ![iPhone 12 Pro](assets/images/414px.png)    
 
 ## License
 
