@@ -16,6 +16,7 @@ It will be developed and improved over and over.
 < 2nd implementation, 4/16 >
 - Use Bootstrap for UI configuration
 - Use JavaScript to handle 'Click' event on the Work section
+- Use Google fonts
 - Add the GitHub link to each works
 - Use Font Awesome for the GitHub icon
 - Update the Resume with the latest information
@@ -33,15 +34,18 @@ https://wonjong2.github.io/Wonjong_Portfolio/
 - When a user clicks one of the links in the navigation, then the UI scrolls to the corresponding section.
 - When a user clicks one of the images in the Work section, then a user is taken to that deployed application. 
 - When a user clicks area of "[Go To GitHub]", then a user is taken to the repository of it.
-- __Simple Demo__ : https://watch.screencastify.com/v/qpZMIS3KgBERIE50quGm
+- __Simple Demo__ : https://watch.screencastify.com/v/LhRQBXJ3dNgIPLOZt9Hq
 
 Please see the screenshots of the layout change on this Website.
 
-- Layout 1 (Width > 1000px) <br>
-    ![Desktop layout](assets/images/desktop.png)
+- Layout 1 (Width >= 1000px) <br>
+    ![Large layout](assets/images/desktop.png)
 
-- Layout 2 (Width < 768px) <br>
-    ![iPad Air Layout](assets/images/820px.png) 
+- Layout 2 (1000px > Width >= 768px) <br>
+    ![Middle Layout](assets/images/820px.png) 
+
+- Layout 3 (768px > Width ) <br>
+    ![Small Layout](assets/images/414px.png) 
 
 ## License
 
