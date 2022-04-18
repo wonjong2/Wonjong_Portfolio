@@ -4,7 +4,9 @@ var workEl = document.getElementById("work-list");
 const gitHubUrl = {
     "first-project": "https://github.com/levisgaragegroupinc/translation_app",
     "second-project": "https://github.com/wonjong2/Week6_Weather_Dashboard",
-    "third-project": "https://github.com/wonjong2/Week5_Work_Day_Scheduler"
+    "third-project": "https://github.com/wonjong2/Week5_Work_Day_Scheduler",
+    "fourth-project": "https://www.google.com/",
+    "fifth-project": "https://www.google.com/"
 }
 
 //  Added event listener 
